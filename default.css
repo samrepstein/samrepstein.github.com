@@ -206,7 +206,7 @@ img {
 /* content */
 .content {
     	margin-top: 10px;
-	float: right;
+	margin: auto;
 	width: 838px /*638px*/ /*538px*/;
         font: normal 110% Arial,sans-serif;
         line-height: 120%;
