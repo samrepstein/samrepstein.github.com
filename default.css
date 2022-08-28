@@ -93,6 +93,7 @@ img {
   font-size: 110%;
 }
 
+.tab { margin-left: 20px; }
 
 .publi_author {
 /*  font-weight: bold;*/
@@ -225,7 +226,7 @@ img {
 /* navigation */
 .navigation {
 	float: left;
-	width: 243px /*243px*/ /*210px*/;
+	width: 2px /*243px*/ /*210px*/;
 }
 .navigation h2 {
 	color: #5A5A43;
