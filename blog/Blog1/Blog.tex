@@ -119,7 +119,7 @@ This is a math blog focusing on Algorithmic Information Theory. The main focus w
 This entry deals with the relationship between Algorithithmic Information Theory and Machine Learning. Classification is the task of learning a binary function $c$  from $\N$ to bits $\BT$. The learner is given a sample consisting of pairs $(x,b)$ for string $x$ and bit $b$ and outputs a binary classifier $h:\N\rightarrow\BT$ that should match $c$ as much as possible. Occam's razor says that ``the simplest explanation is usually the best one.'' Simple hypothesis are resilient against overfitting to the sample data. With certain probabilistic assumptions, learning algorithms that produce hypotheses of low Kolmogorov complexity are likely to correctly predict the target function~\cite{BlumerEhHaWar89}. The following theorem shows that the samples can be compressed to their count.
 
 \begin{thr}
-Given a set of samples $\{(x_i,b_i)\}$, $i=1,\dots,n$, there is a total function $f:\N\rightarrow\BT$ such that $f(x_i)=b_i$ for $i=1,\dots,n$ and $\K(f)<\log n + \I(\{(x_i,b_i)\};H)$.
+Given a set of samples $\{(x_i,b_i)\}$, $i=1,\dots,n$, there is a total function $f:\N\rightarrow\BT$ such that $f(x_i)=b_i$ for $i=1,\dots,n$ and $\K(f)<^{\log} n + \I(\{(x_i,b_i)\};H)$.
 \end{thr}
 
 
