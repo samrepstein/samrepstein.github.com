@@ -128,7 +128,7 @@ However, usually the samples can be modeled as coming from a probabilistic model
 \begin{thr} $Entropy(Y|X)\leq\E[\Gamma(X,Y)]\lel Entropy(Y|X)+\K(p)$.
 \end{thr}
 
-Another area of machine learning is regression, in which one is give a set of pairs $\{(x_i,y_i)\}$, $i=1\dots n$, and the goal is to find a function $f$, such that $f(x_i)=y_i$. Usually each $x_i$ and $y_i$ represents a point in Euclidean space, but for our purpose they are natural numbers. As in classification, the goal is to use Occam's razor to find the simpliest function, to prevent overfitting to the random noise inherent in the sample data. The following theorem provides bounds on the simplest function completely consistent with the data.
+Another area of machine learning is regression, in which one is give a set of pairs $\{(x_i,y_i)\}$, $i=1\dots n$, and the goal is to find a function $f$, such that $f(x_i)=y_i$. Usually each $x_i$ and $y_i$ represents a point in Euclidean space, but for our purpose they are natural numbers. As in classification, the goal is to use Occam's razor to find the simpliest function, to prevent overfitting to the random noise inherent in the sample data. The following theorem provides bounds on the simplest total computable function completely consistent with the data.
 \begin{thr}
 For $\{(x_i,y_i)\}$, $i=1,\dots,n$,  there exists $f:\N\rightarrow\N$ with $f(x_i)= y_i$ for $i\in\{1,\dots,n\}$ and $\K(f) \lel \sum_{i=1}^n\K(y_i|x_i)+\I(\{(x_i,y_i)\};H)$.
 \end{thr}
