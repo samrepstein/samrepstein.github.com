@@ -18,6 +18,13 @@ html {min-height: 100%;}
 	padding: 0;
 }
 
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
 a {color: #0F6AEB /*#048*/; text-decoration:none}
 a:hover {color: #06C;}
 
@@ -66,7 +73,7 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 14px /*9px*/;}
 .left {float: left;}
 .right {float: right;}
 
-img {
+faceimg {
  float:right;
  border: 1px solid #0000ff;
     margin-left: 3px
