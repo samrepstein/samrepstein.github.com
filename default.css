@@ -73,8 +73,7 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 14px /*9px*/;}
 .left {float: left;}
 .right {float: right;}
 
-faceimg {
- float:right;
+img 
  border: 1px solid #0000ff;
     margin-left: 3px
 }
