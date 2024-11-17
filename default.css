@@ -98,7 +98,9 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 14px /*9px*/;}
   font-size: 110%;
 }
 
-.tab { margin-left: 20px; }
+.tab { 
+
+} /*margin-left: 20px; }*/
 
 .publi_author {
 /*  font-weight: bold;*/
