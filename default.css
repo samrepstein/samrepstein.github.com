@@ -265,16 +265,16 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 14px /*9px*/;}
 
 /* footer */
 .footer {
-	background: #949490;
-	color: #F7F7F2;
+	background: #A7A6CC;
+	color: #A7A6CC;
 	font: bold 1em sans-serif;
 	margin-top: 5px;
-	padding: 10px 12px;
+	padding: 10px 10px;
 }
 .footer a {
-	color: #F7F7F2;
+	color: #A7A6CC;
 	text-decoration: none;
 }
-.footer a:hover {color: #FFC;}
-.footer .right, .footer .right a {color: #C8C8C3;}
-.footer .right a:hover {color: #F7F7F2;}
+.footer a:hover {color: #A7A6CC;}
+.footer .right, .footer .right a {color: #A7A6CC;}
+.footer .right a:hover {color: #A7A6CC;}
