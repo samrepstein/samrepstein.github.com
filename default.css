@@ -98,9 +98,19 @@ h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 14px /*9px*/;}
   font-size: 110%;
 }
 
-.tab { 
-   margin-left: 0px; }
+.topmargin {
+    margin-top: 12px;
+    margin-bottom: 1px;
 }
+
+.topbuffer {
+margin-top: 10px;
+}
+
+.tab { 
+   margin-left: 0px; 
+}
+
 .publi_author {
 /*  font-weight: bold;*/
 /*  font-variant: small-caps;*/
