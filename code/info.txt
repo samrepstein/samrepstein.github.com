@@ -11,4 +11,4 @@ Memory Model for Spim
 This is the memory model that was put into SPIM. It handles memory as a collection of allocated regions. If two regions are adjacent then they are merged together.
 
 Test MIPs files
-This is the test files that can be used on JPSegment
+This is the test files that can be used on JPSegment. Note that the code worked on all the test files.
