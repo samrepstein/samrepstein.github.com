@@ -1,5 +1,5 @@
 JPSegment
-This is the main code for recompiling MIPs code. It performs SEDiagram construction and reduction. It also removes operations on transient memory. It doesn't handle datum reduction because when I made the code, I didn't have the construct. Note that there's an error in JPLWInst.cpp because it doesn't handle stack pointers. I'll try to fix it.
+This is the main code for recompiling MIPs code. It performs SEDiagram construction and reduction. It also removes operations on transient memory. It doesn't handle datum reduction or alignment of SW/LW/New/Free nodes on vertical lines because when I made the code, I didn't have the constructs. Note that there's an error in JPLWInst.cpp because it doesn't handle stack pointers. I'll try to fix it.
 
 SPIM MIPs Simulator
 This is the SPIM simulator that takes in MIPs code and outputs a trace. To get it to output the trace, you'll need a command line argument but I'm not sure of the exact character. It has been modified to handle memory and free. Thus the heap is a colllection of memory regions that can merge together.
